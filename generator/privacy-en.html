@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Generator Privacy Policy</title>
-<meta name="description" content="Privacy Policy for Generator, the free random number, password, lottery ticket and QR code app by Ariel Tkachenko.">
+<meta name="description" content="Privacy Policy for Generator, the free random number, password, lottery ticket, quote, joke, quiz and QR code app by Ariel Tkachenko.">
 <meta name="color-scheme" content="light dark">
 <link rel="alternate" hreflang="en" href="privacy-en.html">
 <link rel="alternate" hreflang="ru" href="privacy-ru.html">
@@ -200,7 +200,7 @@
       </nav>
     </div>
     <h1>Generator</h1>
-    <p class="meta">Random numbers, passwords, lottery tickets &amp; QR codes · Last updated: September 24, 2026</p>
+    <p class="meta">Random numbers, passwords, lottery tickets, quotes, jokes, quiz &amp; QR codes · Last updated: September 25, 2026</p>
   </header>
 
   <div class="layout">
@@ -230,7 +230,8 @@
           <li>No account, no sign-up. The app never asks for your name or email.</li>
           <li>Everything you generate (numbers, passwords, tickets, QR codes) is created on your device and is never sent to me.</li>
           <li>The free version shows Google ads. You choose whether ads may be personalized and whether the app may track you.</li>
-          <li>Anonymous usage statistics (which screens are used, app performance) help me improve the app.</li>
+          <li>Quotes, jokes and quiz questions are loaded from free third-party services, which see your IP address like any website does.</li>
+          <li>Anonymous usage statistics (which screens and actions are used) help me improve the app.</li>
           <li>I never sell your data. Buying <strong>Remove Ads</strong> turns ads off completely.</li>
         </ul>
       </div>
@@ -266,18 +267,20 @@
           <li>Whether ads loaded and Remove Ads purchase events (never payment details)</li>
         </ul>
 
-        <h3>Performance data (Firebase Performance Monitoring)</h3>
-        <p>How quickly the app starts and how long certain operations take, such as generating a QR code, together with device and OS details. This helps me find and fix slow or broken parts of the app.</p>
-
         <h3>Anonymous sign-in and online features (Firebase Authentication &amp; Realtime Database)</h3>
         <ul>
-          <li>When the app starts, it signs in <strong>anonymously</strong>. Firebase assigns a random user ID that isn't linked to your identity, email or Apple ID.</li>
+          <li>For these features, the app signs in <strong>anonymously</strong>. Firebase assigns a random user ID that isn't linked to your identity, email or Apple ID.</li>
           <li><strong>Quiz statistics</strong> (how many questions you answered and how many were correct) are stored under that random ID so your score is kept.</li>
           <li><strong>Lottery ticket counters.</strong> The app adds each generated ticket to shared totals (for example, how many “lucky” tickets have been generated overall). Only the totals are stored, not your tickets and nothing linked to you.</li>
         </ul>
 
-        <h3>Russian-language content (randstuff.ru)</h3>
-        <p>The quotes, jokes and quiz questions in Russian come from the third-party site <a href="https://randstuff.ru" target="_blank" rel="noopener">randstuff.ru</a>. When you use these screens, the app requests content from that site, and your votes and quiz answers are sent to it. Like any website, it receives your IP address with those requests. No other information about you is sent.</p>
+        <h3>Quotes, jokes and quiz questions (third-party content services)</h3>
+        <p>Quotes, jokes and quiz questions are loaded from free third-party services, depending on the app's language:</p>
+        <ul>
+          <li><strong>Russian:</strong> quotes and quiz questions from <a href="https://randstuff.ru" target="_blank" rel="noopener">randstuff.ru</a>, jokes from <a href="https://shortiki.com" target="_blank" rel="noopener">shortiki.com</a></li>
+          <li><strong>Other languages:</strong> quotes from <a href="https://zenquotes.io" target="_blank" rel="noopener">ZenQuotes</a>, jokes from <a href="https://jokeapi.dev" target="_blank" rel="noopener">JokeAPI</a>, quiz questions from <a href="https://opentdb.com" target="_blank" rel="noopener">Open Trivia DB</a></li>
+        </ul>
+        <p>When you open these screens, the app requests content from the service. Like any website, the service receives your IP address and basic request details with each request. In the Russian quiz, the answer you pick is also sent to randstuff.ru, which checks it; in other languages, answers are checked on your device. No other information about you is sent to these services.</p>
       </section>
 
       <section id="ads">
@@ -308,7 +311,7 @@
               <tr>
                 <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase</a></td>
                 <td>Google LLC</td>
-                <td>Analytics, performance monitoring, anonymous sign-in, quiz stats and ticket totals</td>
+                <td>Analytics, anonymous sign-in, quiz stats and ticket totals</td>
               </tr>
               <tr>
                 <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">AdMob</a></td>
@@ -323,7 +326,27 @@
               <tr>
                 <td><a href="https://randstuff.ru" target="_blank" rel="noopener">randstuff.ru</a></td>
                 <td>randstuff.ru</td>
-                <td>Russian quotes, jokes and quiz questions</td>
+                <td>Russian quotes and quiz questions, checking Russian quiz answers</td>
+              </tr>
+              <tr>
+                <td><a href="https://shortiki.com" target="_blank" rel="noopener">shortiki.com</a></td>
+                <td>shortiki.com</td>
+                <td>Russian jokes</td>
+              </tr>
+              <tr>
+                <td><a href="https://docs.zenquotes.io/privacy-policy/" target="_blank" rel="noopener">ZenQuotes</a></td>
+                <td>ZenQuotes.io</td>
+                <td>Quotes in English</td>
+              </tr>
+              <tr>
+                <td><a href="https://sv443.net/privacypolicy/en" target="_blank" rel="noopener">JokeAPI</a></td>
+                <td>Sv443</td>
+                <td>Jokes in English</td>
+              </tr>
+              <tr>
+                <td><a href="https://opentdb.com" target="_blank" rel="noopener">Open Trivia DB</a></td>
+                <td>Pixeltail Games</td>
+                <td>Quiz questions in English</td>
               </tr>
             </tbody>
           </table>
@@ -367,7 +390,7 @@
         </ul>
         <p>Depending on where you live (for example, under the GDPR in the EU/UK or the CCPA in California), you also have the right to access, correct or delete your personal data, to object to or restrict its processing, and to complain to your local data-protection authority.</p>
         <p>Because the app has no accounts and uses only random identifiers, I usually can't match stored data to a specific person. If you'd like to make a request, email me and I'll do my best to help within 30 days.</p>
-        <p><strong>Legal basis (EEA/UK):</strong> Usage statistics, performance data and the online features are processed on the basis of my legitimate interest in running and improving the app. Personalized ads are shown only with your consent.</p>
+        <p><strong>Legal basis (EEA/UK):</strong> Usage statistics and the online features are processed on the basis of my legitimate interest in running and improving the app. Personalized ads are shown only with your consent.</p>
       </section>
 
       <section id="children">
